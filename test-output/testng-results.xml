@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20409" started-at="2020-09-27T15:35:02Z" finished-at="2020-09-27T15:35:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20409" started-at="2020-09-27T15:35:02Z" finished-at="2020-09-27T15:35:22Z">
+      <class name="cogmentocrmApp.QA.TestCases.CRM_LogInTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:cogmentocrmApp.QA.TestCases.CRM_LogInTest@685cb137]" name="openApp" is-config="true" duration-ms="11633" started-at="2020-09-27T15:35:02Z" finished-at="2020-09-27T15:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="logintest()[pri:1, instance:cogmentocrmApp.QA.TestCases.CRM_LogInTest@685cb137]" name="logintest" duration-ms="2049" started-at="2020-09-27T15:35:14Z" finished-at="2020-09-27T15:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:cogmentocrmApp.QA.TestCases.CRM_LogInTest@685cb137]" name="verifyUserNameTest" duration-ms="61" started-at="2020-09-27T15:35:16Z" finished-at="2020-09-27T15:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="logoutuser()[pri:3, instance:cogmentocrmApp.QA.TestCases.CRM_LogInTest@685cb137]" name="logoutuser" duration-ms="1" started-at="2020-09-27T15:35:16Z" finished-at="2020-09-27T15:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:cogmentocrmApp.QA.TestCases.CRM_LogInTest@685cb137]" name="closeApp" is-config="true" duration-ms="6644" started-at="2020-09-27T15:35:16Z" finished-at="2020-09-27T15:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- cogmentocrmApp.QA.TestCases.CRM_LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

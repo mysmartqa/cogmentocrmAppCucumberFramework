@@ -1,0 +1,8 @@
+Feature: Free CRM Application Test
+
+Scenario: Validate User will able to successfully login to the App
+Given user opens the CRM App with a required browser
+When user successfully Login to the CRM app
+Then Verify the username title
+Then user will successfully logout
+Then Close the app 

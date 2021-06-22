@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="cogmentocrmApp.QA.TestCases.CRM_HomePageTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- cogmentocrmApp.QA.TestCases.CRM_HomePageTest -->
+      <class name="cogmentocrmApp.QA.TestCases.CompaniesTest">
+        <methods>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- cogmentocrmApp.QA.TestCases.CompaniesTest -->
+      <class name="cogmentocrmApp.QA.TestCases.CRM_LogInTest">
+        <methods>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- cogmentocrmApp.QA.TestCases.CRM_LogInTest -->
+      <class name="cogmentocrmApp.QA.TestCases.CRM_ContactsTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="logoutuser"/>
+          <include name="fillupContactsForm" invocation-numbers="0 1 2 3 4"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- cogmentocrmApp.QA.TestCases.CRM_ContactsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

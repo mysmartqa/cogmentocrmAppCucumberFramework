@@ -1,0 +1,9 @@
+Feature: Free CRM Application Test
+
+Scenario: Validate User will able to create a new contract 
+
+Given user opens the CRM with a required browser
+Then user successfully Login to the CRM 
+Then user will successfully created a new contract
+Then user will successfully logout
+Then Close the CRM 
